@@ -1,0 +1,46 @@
+.asset {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .asset:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.621);
+  }
+  
+  .asset-image {
+    width: 100%;
+    display: block;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .asset-title, 
+  .asset-price,
+  .asset-location,
+  .asset-description {
+    padding: 10px 15px;
+  }
+  
+  .asset-title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .asset-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .asset-location {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .asset-description {
+    color: #555;
+  }
+  
